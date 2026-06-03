@@ -1,0 +1,80 @@
+#header-wrapper{
+    top:0;
+    position:fixed;
+    width: 100%;
+    border: none;
+    z-index:2;
+}
+
+#hero{
+    height:100vh;
+    background-image: url("images/farm.jpg");
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+body, head{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+    width: 100%;
+    border: none;
+    background-color:beige;
+    z-index:1;
+}
+#blank{
+    height:110vh;
+    background-color: beige;
+    width: 100%;
+}
+
+#title, #scroll_down{
+    margin:0;
+    color:black;
+    text-align:center;
+    font-size:6rem;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+section div{
+    margin-left: 50px;
+}
+section{
+    padding:30px 0;
+}
+
+table{
+    margin-left: 200px;
+}
+#table{
+    margin-left: 240px;
+    color:rgb(179, 54, 0);
+}
+#table_src{
+    margin-left: 380px;
+    font-size: 0.8rem;
+    color: gray;
+}
+#image_archive img{
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+#scroll_down{
+    color:red;
+    position: absolute;
+    top:80%;
+    transition: opacity 0.2s;
+}
+
+#problem img{
+    margin-left: 10%;
+    height: 400px;
+    width: 400px;
+}
